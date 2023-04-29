@@ -1,0 +1,71 @@
+body {
+    background-image: url(../assets/close-up-black-marble-textured-background_53876-148094.avif);
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color:rgb(0, 183, 255) ;
+}
+ol{
+    color: aquamarine;
+}
+li{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color:rgb(255, 5, 5);
+    text-align: center;
+    font-size: 3vw;
+    font-family: cursive;
+}
+
+#navbar {
+    background-color: #edf50b;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
+}
+#navbar th {
+    border-style: solid;
+}
+
+header {
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    background-color: darkblue;
+    border: 3px solid rgb(80, 244, 253);
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px blue;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    font-size: 12px;
+    border: 3px solid white;
+    padding-left: 5px;
+}
+
+a:hover{
+    color: black;
+}
+
+a {
+    text-decoration: wavy;
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    box-shadow: 5px 5px 10px blue;
+}
