@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    color:rgb(0, 183, 255) ;
+    color:rgb(13, 0, 255) ;
 }
 ol{
     color: aquamarine;
@@ -34,7 +34,9 @@ h2{
 #navbar th {
     border-style: solid;
 }
-
+#navbar a{
+    color: blue;
+}
 header {
     text-align: center;
     color:rgb(255, 255, 255);
@@ -68,4 +70,7 @@ a {
 .dropdown:hover .dropdown-content{
     display: block;
     box-shadow: 5px 5px 10px blue;
+}
+.active{
+    background-color: rgb(42, 246, 239);
 }
